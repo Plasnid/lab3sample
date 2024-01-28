@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    opacity: 0;
+    position: "relative";
+    top: "20px";
+
+}
+
+.content {
+    display: flex;
+    border: 1px solid #D2D2D2;
+    margin: 0 10px 10px 10px;
+    padding: 20px;
+    min-height: 150px;
+    border-radius: 8px;
+    background-image: url("assets/background.svg");
+    background-position: top 8px left 8px;
+    position: relative;
+}
+
+.btn {
+    cursor: pointer;
+    height: 36px;
+    width: 180px;
+    margin-right: 20px;
+    background-color: #000000;
+    border: 0;
+    border-radius: 6px;
+    color: #FFFFFF;
+    transition: .2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(1);
+}
+
+#greenrectangle {
+    height: 100px;
+    width: 200px;
+    background-color: #00ffaa;
+}
+
+#meme>img {
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    margin-left: 100px;
+}
+
+#blueCirc {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #3f5cff;
+    /* Makes the circle a sphere. */
+    box-shadow: inset -25px -25px 40px #00000080;
+}
+
+#content3 {
+    position: relative;
+    height: 190px;
+}
